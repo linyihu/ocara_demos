@@ -1,0 +1,12 @@
+{
+    "name": "ocara/ocara_demos",
+    "authors": [
+        {
+            "name": "ocara",
+            "email": "linyhtianwa@163.com"
+        }
+    ],
+    "require": {
+        "linyihu/ocara": "dev-master"
+    }
+}

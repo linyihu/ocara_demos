@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "32ffbae1206c5640e985b0673f829feb",
+    "packages": [
+        {
+            "name": "linyihu/ocara",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/linyihu/ocara.git",
+                "reference": "c0af2f06dccc839306e6a80c479a0e4c7fbe4422"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/linyihu/ocara/zipball/c0af2f06dccc839306e6a80c479a0e4c7fbe4422",
+                "reference": "c0af2f06dccc839306e6a80c479a0e4c7fbe4422",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ocara\\": "system/library/",
+                    "Ocara\\Functions\\": "system/functions/",
+                    "Ocara\\Extension\\": "extension/library/",
+                    "Ocara\\Extension\\Functions\\": "extension/functions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "linyihu",
+                    "email": "linyhtianwa@163.com"
+                }
+            ],
+            "description": "Ocara Framework",
+            "time": "2020-03-03T08:33:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "linyihu/ocara": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
