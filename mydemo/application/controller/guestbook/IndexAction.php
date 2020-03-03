@@ -47,6 +47,6 @@ class IndexAction extends Controller
 	/**
 	 * Ajax处理
 	 */
-	public function ajax()
+	public function api()
 	{}
 }
