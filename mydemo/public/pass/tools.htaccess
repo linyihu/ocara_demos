@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(src/?.*)|(pass/.+)|(favicon.ico)|(robots\.txt)|(sitemap\d*\.[[:alpha:]]{3})$ - [NE,NC,L]
+RewriteRule ^.+\.html?(\?.*)?$ static/$0 [NE,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ index.php [NE,NC,L]
+</IfModule>
