@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/linyihu/ocara.git",
-                "reference": "c0af2f06dccc839306e6a80c479a0e4c7fbe4422"
+                "reference": "b30848527644cc7d5e458500f177ec6a8cb037c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linyihu/ocara/zipball/c0af2f06dccc839306e6a80c479a0e4c7fbe4422",
-                "reference": "c0af2f06dccc839306e6a80c479a0e4c7fbe4422",
+                "url": "https://api.github.com/repos/linyihu/ocara/zipball/b30848527644cc7d5e458500f177ec6a8cb037c4",
+                "reference": "b30848527644cc7d5e458500f177ec6a8cb037c4",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "Ocara Framework",
-            "time": "2020-03-03T08:33:10+00:00"
+            "time": "2020-03-06T17:16:12+00:00"
         }
     ],
     "packages-dev": [],
