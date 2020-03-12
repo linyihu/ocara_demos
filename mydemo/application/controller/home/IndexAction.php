@@ -20,8 +20,7 @@ class IndexAction extends Controller
 	 */
 	public function display()
 	{
-	    $this->response->setBody('Hello World!');
-	    $this->response->send();
+	    return $this->send('Hello World!');
     }
 
 	/**
