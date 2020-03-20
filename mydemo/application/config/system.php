@@ -120,7 +120,7 @@ return array(
     /*
      * 验证码在$SESSION中的保存名称
      */
-    'VERIFYCODE_NAME' => 'OCSESSCODE',
+    'VERIFY_CODE_NAME' => 'OCSESSCODE',
 
     /*
      * 默认文档类型

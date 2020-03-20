@@ -1,6 +1,7 @@
 <?php
 namespace app\service;
 
+use Ocara\Exceptions\Exception;
 use app\model\entity\database\GuestbookEntity;
 
 class GuestbookService extends BaseService
@@ -8,7 +9,8 @@ class GuestbookService extends BaseService
     /**
      * 添加一行
      * @param $data
-     * @return mixed
+     * @return bool
+     * @throws Exception
      */
     public function addRow($data)
     {

@@ -7,11 +7,12 @@ function deleteRecord(delId)
 			url,
 			{id: delId},
 			function(data){
-				if (data.status == 200) {
+				console.log(data)
+				if (data.status == 'success') {
 					alert('操作成功！');
 					location.reload();
 				} else {
-					alert('【'+data.data.code+'】' + data.message);
+					alert('【'+data.code+'】' + data.message);
 				}
 				return false;
 			}

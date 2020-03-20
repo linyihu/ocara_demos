@@ -41,7 +41,7 @@ class IndexAction extends Controller
             ->validate($data);
 
         $result = GuestbookService::build()->addRow($data);
-        return $result;
+        $this->send($result ? 'success' : 'fail');
     }
 
 	/**
