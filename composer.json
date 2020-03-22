@@ -1,12 +1,12 @@
 {
-    "name": "ocara/ocara_demos",
-    "authors": [
-        {
-            "name": "ocara",
-            "email": "linyhtianwa@163.com"
-        }
-    ],
-    "require": {
-        "ocaraworks/ocara-php": "dev-master"
+  "name": "ocaraworks/ocara-php-demos",
+  "authors": [
+    {
+      "name": "ocara",
+      "email": "linyhtianwa@163.com"
     }
+  ],
+  "require": {
+    "ocaraworks/ocara-php": "dev-master"
+  }
 }
