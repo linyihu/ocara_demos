@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "linyihu/ocara": "dev-master"
+        "ocaraworks/ocara-php": "dev-master"
     }
 }
