@@ -2,6 +2,7 @@
 /**
  * 添加动作
  */
+
 namespace app\tools\dev\controller\generate;
 
 use app\tools\dev\controller\generate\Controller;
@@ -33,7 +34,7 @@ class ActionAction extends Controller
         $class = '\Ocara\Extension\Tools\Develop\Generate\\'
             . ucfirst($this->_target)
             . 'Service';
-        $method = $this->_behavior ? : 'add';
+        $method = $this->_behavior ?: 'add';
 
         $service = new $class();
         $service->$method();
@@ -41,7 +42,7 @@ class ActionAction extends Controller
 
     public function afterAction()
     {
-        if ($this->isFormSubmit()) {
+        if ($this->isPostSubmit()) {
             echo '操作成功！';
         }
     }
