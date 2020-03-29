@@ -19,6 +19,11 @@ return array(
     'SYSTEM_RUN_MODE' => 'develop',
 
     /*
+     * 是否开启开发者中心
+     */
+    'OPEN_DEVELOP_CENTER' => 1,
+    
+    /*
      * 添加新的命名空间
      */
     'NEW_NAMESPACE_MAPS' => array(),
