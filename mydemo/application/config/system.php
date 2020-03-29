@@ -22,7 +22,7 @@ return array(
      * 是否开启开发者中心
      */
     'OPEN_DEVELOP_CENTER' => 1,
-    
+
     /*
      * 添加新的命名空间
      */
